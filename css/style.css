@@ -1,0 +1,121 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Noto+Serif&display=swap'); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/bg.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #f0efef;
+    /* background-size: cover;
+    background-position: center center; */
+    font-family: 'Lato', sans-serif;
+}
+html{
+    font-size: 80%;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.header-wreapper{
+    margin: 50px 0px 50px 0px;
+}
+.profile{
+    /* border: 1px solid red; */
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.name{
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+}
+.job{
+    font-size: 1rem;
+}
+.profile-image{
+    margin-top: 20px;
+}
+.image{
+    width: 200px; height:200px;
+    border-radius: 100%;
+}
+.profile-information{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.profile-information ul li{
+    margin-top: 10px;
+}
+.info{
+    color: #7F7F7F;
+    /* */
+}
+.download{
+
+    text-align: center;
+
+}
+.btns{
+    background-color:#d81300;
+    padding: 5px 15px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.cv-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.heading{
+    border-bottom: 3px solid rgba(201, 48, 48, 0.39);
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-family: 'Noto Serif', serif;
+}
+.para{
+    margin-top: 20px;
+}
+.contact ul li{
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+.lang ul li{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.cv-info{
+    margin-top: 20px;
+}
+.paras{
+    font-size: 1.3rem;
+}
+.cv-skill{
+    margin-bottom: 20px;
+}
